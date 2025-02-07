@@ -21,15 +21,15 @@ It's recommended to use VMware(Free/Paid) since we can make the VM look like a r
 
 **Steps to do this:**
 
-1․ First go to the directory where you installed the Windows VM. It's the *Documents* folder by default.
+1․ Navigate to the folder where your Windows VM is installed. By default, this is the Documents folder.
 
-2․ In *Documents* folder, there will be a folder called *Virtual Machines*.
+2․ Inside the Documents folder, locate a directory named Virtual Machines.
 
-3․ Open that folder & select the Windows VM folder and open it.
+3․ Open this folder, then find and access the Windows VM folder.
 
-4․ Now there will be a file with extension `.vmx`. Right-click that file and open it with Notepad.
+4․ Inside, look for a file with the .vmx extension. Right-click on it and choose Open with Notepad.
 
-5․ Now paste `smbios.reflecthost = "TRUE"` in a new line like this:
+5․ Add the following line on a new line within the file:
 
 ![image](https://user-images.githubusercontent.com/34748927/167270852-36b89b22-bb09-4633-9040-90bc29e64f75.png)
 
